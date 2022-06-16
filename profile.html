@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Profile page Social book</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/c751151e16.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+<div class="nav-left">
+    <img src="css/images/logo.png" alt="logo" class="logo">
+    <ul>
+        <li> <img src="css/images/notification.png" alt="notification"> </li>
+        <li> <img src="css/images/inbox.png" alt="inbox"> </li>
+        <li> <img src="css/images/video.png" alt="video"> </li>
+        
+
+
+    </ul>
+
+</div>
+<div class="nav-right">
+
+    <div class="search-box">
+        <img src="css/images/search.png" alt="search">
+
+    <input type="text" placeholder="search">    
+    </div>
+
+
+<div class="nav-user-icon online" onclick="settingsMenuToggle()">
+    <img src="css/images/profile-pic.png" alt="profile-pic">
+</div>
+
+</div>
+
+<!------settings menu-->
+
+
+  <div class="settings-menu">
+    <div id="dark-btn">
+        <span></span>
+    </div>
+
+      <div class="settings-menu-inner">
+        <div class="user-profile">
+            <img src="css/images/profile-pic.png" alt="profile-pic">
+            <div>
+                <p>Nino Otuoze</p>
+              <a href="#">See your profile</a>
+            </div>
+        </div>
+       
+        <hr>
+        <div class="user-profile">
+            <img src="css/images/feedback.png" alt="feedback">
+            <div>
+                <p>Give feedback</p>
+              <a href="#">Help us to improve the new design</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="settings-links">
+            <img src="css/images/setting.png" alt="setting" class="settings-icon">
+            <a href="#">Settings & privacy <img src="css/images/arrow.png" width="10px" alt=""></a>
+        </div>
+
+        <div class="settings-links">
+            <img src="css/images/help.png" alt="help" class="settings-icon">
+            <a href="#">Help & Support <img src="css/images/arrow.png" width="10px" alt=""></a>
+        </div>
+
+        <div class="settings-links">
+            <img src="css/images/display.png" alt="display" class="settings-icon">
+            <a href="#">Display & Access <img src="css/images/arrow.png" width="10px" alt=""></a>
+        </div>
+
+        <div class="settings-links">
+            <img src="css/images/logout.png" alt="logo" class="settings-icon">
+            <a href="#">Logout <img src="css/images/arrow.png" width="10px" alt=""></a>
+        </div>
+
+
+      </div>
+    
+    
+      
+  </div>
+
+    </nav>
+
+    <!-----profile page---------->
+
+
+    <div class="profile-container">
+        <img src="css/images/cover.png" alt="cover" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="css/images/profile.png" class="pd-img" alt="profile">
+                <div>
+                <h3>Jack Nicole</h3>
+                <p>120 friends - 20 mutual</p>
+
+                <img src="css/images/member-1.png" alt="">
+                <img src="css/images/member-2.png" alt="">
+                <img src="css/images/member-3.png" alt="">
+                <img src="css/images/member-4.png" alt="">
+                
+                </div>
+                </div>
+            </div>
+            <div class="pd-right">
+
+          <button type="button"> <img src="css/images/add-friends.png" alt=""> Friends</button>
+          <button type="button"> <img src="css/images/message.png" alt=""> Message</button>
+          <br>
+          <a href=""> <img src="css/images/more.png" alt=""> </a>      
+            </div>
+        </div>
+
+
+        <div class="profile-info">
+        <div class="info-col">
+            <div class="profile-intro">
+                <h3>Intro</h3>
+                <p class="intro-text">Believe in yourself and you can do unbelievable things <img src="css/images/feeling.png" alt=""> </p>
+           <hr>
+           <ul>
+               <li> <img src="css/images/profile-job.png" alt=""> Director at 99media Ltd</li>
+               <li> <img src="css/images/profile-study.png" alt=""> Studied at University of Ilorin</li>
+               <li> <img src="css/images/profile-study.png" alt=""> Went to FGC Ikole</li>
+               <li> <img src="css/images/profile-home.png" alt=""> Lives in trenches</li>
+               <li> <img src="css/images/profile-location.png" alt=""> From Abule egba</li>
+           </ul>
+            </div>
+
+
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Photos</h3>
+                    <a href="">All photos</a>
+                </div>
+                <div class="photo-box">
+                    <div> <img src="css/images/photo1.png" alt=""> </div>
+                    <div> <img src="css/images/photo2.png" alt=""> </div>
+                    <div> <img src="css/images/photo3.png" alt=""> </div>
+                    <div> <img src="css/images/photo4.png" alt=""> </div>
+                    <div> <img src="css/images/photo5.png" alt=""> </div>
+                    <div> <img src="css/images/photo6.png" alt=""> </div>
+                </div>
+            </div>
+
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Friends</h3>
+                    <a href="">All friends</a>
+                </div>
+                <p>120 (10 mutual)</p>
+                <div class="friends-box">
+                    <div> <img src="css/images/member-1.png" alt=""> <p>Ninolowo O</p> </div>
+                    <div> <img src="css/images/member-2.png" alt=""> <p>Xavi H</p> </div>
+                    <div> <img src="css/images/member-3.png" alt=""> <p>Sergio A</p> </div>
+                    <div> <img src="css/images/member-4.png" alt=""> <p>Neymar Jr</p> </div>
+                    <div> <img src="css/images/member-5.png" alt=""> <p>Olamide A</p> </div>
+                    <div> <img src="css/images/member-6.png" alt=""> <p> Wizkid A</p> </div>
+                </div>
+            </div>
+
+
+
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="css/images/profile-pic.png" alt="profile-pic">
+                        <div>
+                            <p>Nino Otuoze</p>
+                            <small>Public<i class="fas fa-caret-down"></i> </small>
+                        </div>
+                    </div>
+           
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind bro?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"> <img src="css/images/live-video.png" alt="video"> Live video </a>
+                            <a href="#"> <img src="css/images/photo.png" alt="video"> Photo/video </a>
+                            <a href="#"> <img src="css/images/feeling.png" alt="video"> Feeling</a>
+                        </div>
+                    </div>
+           
+                   </div>
+
+                   <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="css/images/profile-pic.png" alt="profile-pic">
+                            <div>
+                                <p>Nino Otuoze</p>
+                               <span>May 14, 2021, 15:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i> </a>
+        
+                    </div>
+                    
+        
+                    <p class="post-text">Subscribe <span>@Nino tutorials </span> to watch more of stuffs like this, you will enjoy them<a href="#"> #NinoTheBosss <a href="#"> #BadBoy</a> </a> </p>
+                   <img src="css/images/feed-image-1.png" class="post-image" alt="feed-image-1">
+        
+                   <div class="post-row">
+                       <div class="activity-icons">
+                           <div> <img src="css/images/like-blue.png" alt="like">120 </div>
+                           <div> <img src="css/images/comments.png" alt="comments">45 </div>
+                           <div> <img src="css/images/share.png" alt="share">60 </div>
+        
+                       </div>
+        
+                       <div class="post-profile-icon">
+                           <img src="css/images/profile-pic.png" alt="profile-pic"> <i class="fas fa-caret-down"></i>
+                        
+        
+        
+                       </div>
+                   </div>
+                </div>
+        
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="css/images/profile-pic.png" alt="profile-pic">
+                            <div>
+                                <p>Nino Otuoze</p>
+                               <span>April 20, 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i> </a>
+        
+                    </div>
+                    
+        
+                    <p class="post-text">Just out here with some of my fantasy friends because i honeestly do not know who the fuck they are but i'm having fun with them <a href="#">#jokes</a> </p>
+                   <img src="css/images/feed-image-2.png" class="post-image" alt="feed-image-1">
+        
+                   <div class="post-row">
+                       <div class="activity-icons">
+                           <div> <img src="css/images/like-blue.png" alt="like">200 </div>
+                           <div> <img src="css/images/comments.png" alt="comments">97 </div>
+                           <div> <img src="css/images/share.png" alt="share">40 </div>
+        
+                       </div>
+        
+                       <div class="post-profile-icon">
+                           <img src="css/images/profile-pic.png" alt="profile-pic"> <i class="fas fa-caret-down"></i>
+                        
+        
+        
+                       </div>
+                   </div>
+                </div>
+        
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="css/images/profile-pic.png" alt="profile-pic">
+                            <div>
+                                <p>Nino Otuoze</p>
+                               <span>March 24, 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i> </a>
+        
+                    </div>
+                    
+        
+                    <p class="post-text">Casually taking walk with these folks, i do not know where we are headed to because the whole thing is a sham but i'm following them rehgardless, i hope i return home safely haha </p>
+                   <img src="css/images/feed-image-3.png" class="post-image" alt="feed-image-1">
+        
+                   <div class="post-row">
+                       <div class="activity-icons">
+                           <div> <img src="css/images/like-blue.png" alt="like">76 </div>
+                           <div> <img src="css/images/comments.png" alt="comments">43 </div>
+                           <div> <img src="css/images/share.png" alt="share">10</div>
+        
+                       </div>
+        
+                       <div class="post-profile-icon">
+                           <img src="css/images/profile-pic.png" alt="profile-pic"> <i class="fas fa-caret-down"></i>
+                        
+        
+        
+                       </div>
+                   </div>
+                </div>
+        
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="css/images/profile-pic.png" alt="profile-pic">
+                            <div>
+                                <p>Nino Otuoze</p>
+                               <span>February 24, 2021, 18:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i> </a>
+        
+                    </div>
+                    
+        
+                    <p class="post-text">This woman might just be somewhere resting and she wont know that im using her icture to develop website </p>
+                   <img src="css/images/feed-image-4.png" class="post-image" alt="feed-image-1">
+        
+                   <div class="post-row">
+                       <div class="activity-icons">
+                           <div> <img src="css/images/like-blue.png" alt="like">76 </div>
+                           <div> <img src="css/images/comments.png" alt="comments">43 </div>
+                           <div> <img src="css/images/share.png" alt="share">10</div>
+        
+                       </div>
+        
+                       <div class="post-profile-icon">
+                           <img src="css/images/profile-pic.png" alt="profile-pic"> <i class="fas fa-caret-down"></i>
+                        
+        
+        
+                       </div>
+                   </div>
+                </div>
+        
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="css/images/profile-pic.png" alt="profile-pic">
+                            <div>
+                                <p>Nino Otuoze</p>
+                               <span>March 24, 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"> <i class="fas fa-ellipsis-v"></i> </a>
+        
+                    </div>
+                    
+        
+                    <p class="post-text">I attended this meeting while sitting down somewhere in ibadan and no, it's not a magic, once you believe you can achieve </p>
+                   <img src="css/images/feed-image-5.png" class="post-image" alt="feed-image-1">
+        
+                   <div class="post-row">
+                       <div class="activity-icons">
+                           <div> <img src="css/images/like-blue.png" alt="like">76 </div>
+                           <div> <img src="css/images/comments.png" alt="comments">43 </div>
+                           <div> <img src="css/images/share.png" alt="share">10</div>
+        
+                       </div>
+        
+                       <div class="post-profile-icon">
+                           <img src="css/images/profile-pic.png" alt="profile-pic"> <i class="fas fa-caret-down"></i>
+                        
+        
+        
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="footer">
+        <p>Copyright 2022 - Neenoe</p>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
